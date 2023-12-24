@@ -3,11 +3,12 @@
 
 1. Make sure that you have python3-venv installed, the Mason plugin is going to install some packages, and it may need it. You can install python3-venv with `apt install python3-venv`.
 2. Install [Neovim](https://neovim.io/).
-3. Copy the configuration files of this repository.
+3. Install [NvChad](https://nvchad.com/).
+4. Copy the custom configuration files.
    ```
-   git clone https://github.com/aams-eam/NvChad-aams-Custom.git ~/.config/nvim
+   git clone https://github.com/aams-eam/nvchad-aams-custom.git ~/.config/nvim/lua/custom/
    ```
-4. You are done! For other configurations and possible errors you can refer to this post: [Using Neovim as IDE with NvChad](https://aamseam.com/posts/using-neovim-as-ide-with-nvchad/).
+5. You are done! For other configurations and possible errors you can refer to this post: [Using Neovim as IDE with NvChad](https://aamseam.com/posts/using-neovim-as-ide-with-nvchad/).
 
 ## Plugins list
 
