@@ -27,6 +27,3 @@ This configuration adds the following plugins and configurations to NvChad:
     - Graphic User Interface for debugging [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui).
     - Facilitate the installation of new adapters [mason-nvim-dap](https://github.com/jay-babu/mason-nvim-dap.nvim)
 
-
-## Roadmap
-I may change all these plugins and configurations to the folder `custom`, so it is an additional configuration to NvChad instead of a fork.
