@@ -7,6 +7,7 @@ local plugins = {
         "python-lsp-server",
         "black",
         "ltex-ls",
+        "json-lsp",
       },
     },
   },
