@@ -11,7 +11,17 @@ lspconfig.pylsp.setup({
   filetypes = {"python"},
 })
 
+lspconfig.clangd.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+})
+
 lspconfig.jsonls.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+})
+
+lspconfig.yamlls.setup({
   on_attach = on_attach,
   capabilities = capabilities,
 })
