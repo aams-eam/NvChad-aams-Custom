@@ -8,6 +8,8 @@ local plugins = {
         "black",
         "ltex-ls",
         "json-lsp",
+        "yaml-language-server",
+        "clangd",
       },
     },
   },
@@ -98,9 +100,10 @@ local plugins = {
       vim.keymap.set('n', '<F5>', function()
         require('dap.ext.vscode').load_launchjs() -- Load launch.json every time we debug
         require('dap').continue() end)
-      vim.keymap.set('n', '<F10>', function() require('dap').step_over() end)
-      vim.keymap.set('n', '<F11>', function() require('dap').step_into() end)
-      vim.keymap.set('n', '<F12>', function() require('dap').step_out() end)
+      vim.keymap.set('n', '<F6>', function() require('dap').step_into() end)
+      vim.keymap.set('n', '<F7>', function() require('dap').step_over() end)
+      vim.keymap.set('n', '<F8>', function() require('dap').step_out() end)
+      vim.keymap.set('n', '<leader>dG', function() require('dap').run_to_cursor() end)
     end,
     lazy = false,
   },
