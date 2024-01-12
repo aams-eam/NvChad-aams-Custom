@@ -8,6 +8,7 @@ local plugins = {
         "black",
         "ltex-ls",
         "json-lsp",
+        "jq",
         "yaml-language-server",
         "clangd",
       },
