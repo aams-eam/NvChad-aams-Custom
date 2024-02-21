@@ -202,8 +202,20 @@ local plugins = {
       require("dap-python-ssh").setup()
     end,
     lazy = false,
-  }
+  },
 
+  -- nvim v0.8.0
+  {
+    "kdheepak/lazygit.nvim",
+    dependencies =  {
+      "nvim-telescope/telescope.nvim",
+      "nvim-lua/plenary.nvim"
+    },
+    config = function()
+      require("telescope").load_extension("lazygit")
+    end,
+    lazy = false,
+  },
 }
 
 return plugins
